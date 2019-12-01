@@ -8,26 +8,78 @@
 </head>
 
 <body>
-    <H1>Homework #5 - <span>Ryan Fahey</span></H1>
+	<H1>HTML Participation - MIS 3033 002</H1>
+<nav>
+	<ol>
+	<li>
+		<a target= "_blank"
+ 		href="https://www.google.com">Google</a>
+</li>
+	<li><a> Bing</a></li>
+	<li><a>OU </a></li>
+	</ol>
+</nav>
 
-    <div class="box1">
-
-                <li><a target="_blank" href="https://www.OU.edu">OU</a></li>
-                <li><a target="_blank" href="https://ClassNav.OU.edu">ClassNav</a></li>
-                <li><a target="_blank" href="https://One.OU.edu">One</a></li>
+<div id="Container">
+    <div>Information</div>
+    <div id="Information">
+        <H4>Luke Lenhardt</H4>
+        <h5>MIS</h5>
+        <p>Student</p>
     </div>
 
-    <div class="box2">
-        <img src="https://www.pbh2.com/wordpress/wp-content/uploads/2013/03/cute-puppy-gifs-cupcake.gif" style="width:100%">
-    </div>
+    <p> Purpose: </p>
 
-    <div class="box3">
-        <img src="https://thumbs.gfycat.com/NewSilentHart-size_restricted.gif" style="width:100%">
-    </div>
 
-    <div class="box4">
-        <img src="http://www.sharegif.com/wp-content/uploads/2014/04/mic-dropgame-of-thronesswag.gif" style="width:100%">
-    </div>
+    <p> To write an FTML application </p>
 
+
+
+    <div onclick="secret()"> Something people do not know about me...</div>
+
+    <div id="secret"> I have 14 toes </div>
+
+</div>
+
+        <div id=" more">
+
+
+        </div>
+
+        <script>
+            (function () {
+                var paragraph = document.createElement("div");
+
+                paragraph.innerHTML = "<p> Hello World </p>";
+                document.getElementById("more").appendChild(paragraph);
+
+                var x = document.createElement("p");
+
+                for (var i = 0; i <= 10; i++) {
+                    x.innerHTML += i + "<br>";
+                }
+                document.getElementById("more").appendChild(x);
+                document.getElementById("secret").style.display = "none";
+
+            })();
+
+
+            function secret() {
+                var x = document.getElementById("secret");
+                if (x.style.display === "none") {
+                    x.style.display = "block";
+
+                } else {
+                    x.style.display = "none";
+                }
+
+            }
+
+
+        </script>
+
+
+    
 </body>
 </html>
+
