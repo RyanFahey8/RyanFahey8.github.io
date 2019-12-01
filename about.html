@@ -1,1 +1,70 @@
+<!DOCTYPE html>
+<html>
 
+<head>
+    <meta charset='utf-8'>
+    <title>Ryan Fahey's Personal Website</title>
+    <link rel="stylesheet" href="Style.css" />
+</head>
+
+<body>
+	<H1>Home Page</H1>
+<nav>
+	<ol>
+	<li><a target= "_blank" href="index.html">Home</a></li>
+	<li><a target= "_blank" href="about.html">About Me</a></li>
+	<li><a target= "_blank" href="projects.html">Projects</a></li>
+	<li><a target= "_blank" href="skills.html">Skill Sets</a></li>
+	</ol>
+</nav>
+
+<div id="Container">
+    <h2>My Purpose</h2>
+    <div id="Purpose">
+        <p>The purpose of this website is to create a central location where you can learn more aboout me.
+	    You can explore more to see some of my other work and qualifications.
+	    Everything on this website was designed by me.</p>
+    </div>
+	
+	<h2>Information</h2>
+    <div id="Information">
+        <p>Hello! My name is Ryan Fahey. I am a junior at the University of Oklahoma.
+	    Welcome to my website!</p>
+    </div>
+	
+    <div onclick="secret()">Click here for my headshot</div>
+
+	<div id="secret"><img src="C:\Users\Ryan\Pictures\Headshot.jpeg"></div>
+</div>
+
+        <div id=" more">
+
+
+        </div>
+
+        <script>
+            (function () {
+                var paragraph = document.createElement("div");
+                paragraph.innerHTML = "<p> Hello World </p>";
+                document.getElementById("more").appendChild(paragraph);
+                var x = document.createElement("p");
+                for (var i = 0; i <= 10; i++) {
+                    x.innerHTML += i + "<br>";
+                }
+                document.getElementById("more").appendChild(x);
+                document.getElementById("secret").style.display = "none";
+            })();
+            function secret() {
+                var x = document.getElementById("secret");
+                if (x.style.display === "none") {
+                    x.style.display = "block";
+                } else {
+                    x.style.display = "none";
+                }
+            }
+        </script>
+
+
+    
+</body>
+</html>
