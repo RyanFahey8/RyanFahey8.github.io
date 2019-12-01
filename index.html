@@ -32,49 +32,7 @@
 	    Welcome to my website!</p>
     </div>
 	
-    <div onclick="secret()">Click here for my headshot</div>
-
-	<div id="secret"><img src="C:\Users\Ryan\Pictures\Headshot.jpeg"></div>
 </div>
-
-        <div id=" more">
-
-
-        </div>
-
-        <script>
-            (function () {
-                var paragraph = document.createElement("div");
-
-                paragraph.innerHTML = "<p> Hello World </p>";
-                document.getElementById("more").appendChild(paragraph);
-
-                var x = document.createElement("p");
-
-                for (var i = 0; i <= 10; i++) {
-                    x.innerHTML += i + "<br>";
-                }
-                document.getElementById("more").appendChild(x);
-                document.getElementById("secret").style.display = "none";
-
-            })();
-
-
-            function secret() {
-                var x = document.getElementById("secret");
-                if (x.style.display === "none") {
-                    x.style.display = "block";
-
-                } else {
-                    x.style.display = "none";
-                }
-
-            }
-
-
-        </script>
-
-
     
 </body>
 </html>
