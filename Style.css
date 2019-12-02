@@ -23,6 +23,7 @@ div {
     margin: 25px;
     display: block;
     width: 250px;
+    text-align: center;
 }
 #About {
 background-color: white;
@@ -35,6 +36,7 @@ padding: 15px;
 margin: 25px;
 display: block;
 width: 250px;
+    text-align: center;
 }
 #Purpose{
 background-color: white;
@@ -47,6 +49,7 @@ padding: 15px;
 margin: 25px;
 display: block;
 width: 250px;
+    text-align: center;
 }
 #Projects {
     background-color: white;
@@ -59,6 +62,7 @@ width: 250px;
     margin: 25px;
     display: block;
     width: 250px;
+    text-align: center;
 }
 #Skills {
     background-color: white;
@@ -71,6 +75,7 @@ width: 250px;
     margin: 25px;
     display: block;
     width: 250px;
+    text-align: center;
 }
     #Information:hover {
         transition: transform 0.8s ease-in-out;
