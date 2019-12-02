@@ -10,6 +10,7 @@ div {
     background-color: crimson;
     color: white;
     margin: 25px;
+    text-align: center;
 }
 
 #Information {
@@ -89,6 +90,7 @@ ol {
     list-style-type: square;
     margin: 0;
     padding: 0;
+    text-align: center;
 }
 
 li a {
