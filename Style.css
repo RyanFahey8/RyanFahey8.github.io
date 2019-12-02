@@ -13,9 +13,10 @@ div {
 }
 
 #Information {
-    background-color: orange;
-    box-shadow: 0 4px 8px 0 crimson;
-    border-bottom: 80px solid crimson;
+    background-color: white;
+    color: crimson;
+    box-shadow: 0 4px 8px 0 white;
+    border-bottom: 80px solid white;
     border-top: 80px solid crimson;
     transition: 0.8s;
     padding: 15px;
@@ -23,11 +24,60 @@ div {
     display: block;
     width: 250px;
 }
-
+#About {
+background-color: white;
+color: crimson;
+box-shadow: 0 4px 8px 0 white;
+border-bottom: 80px solid white;
+border-top: 80px solid crimson;
+transition: 0.8s;
+padding: 15px;
+margin: 25px;
+display: block;
+width: 250px;
+}
+#Purpose{
+background-color: white;
+color: crimson;
+box-shadow: 0 4px 8px 0 white;
+border-bottom: 80px solid white;
+border-top: 80px solid crimson;
+transition: 0.8s;
+padding: 15px;
+margin: 25px;
+display: block;
+width: 250px;
+}
+#Projects {
+    background-color: white;
+    color: crimson;
+    box-shadow: 0 4px 8px 0 white;
+    border-bottom: 80px solid white;
+    border-top: 80px solid crimson;
+    transition: 0.8s;
+    padding: 15px;
+    margin: 25px;
+    display: block;
+    width: 250px;
+}
+#Skills {
+    background-color: white;
+    color: crimson;
+    box-shadow: 0 4px 8px 0 white;
+    border-bottom: 80px solid white;
+    border-top: 80px solid crimson;
+    transition: 0.8s;
+    padding: 15px;
+    margin: 25px;
+    display: block;
+    width: 250px;
+}
     #Information:hover {
         transition: transform 0.8s ease-in-out;
         transform: rotate(720deg) scale(2);
         background-color: blue;
+        border-bottom: blue;
+        border-top: blue;
     }
 
 ol {
@@ -53,5 +103,19 @@ li a {
     }
 
 #Container {
-    margin: 500px;
+    margin: 100px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 300%;
+    color: ghostwhite;
+}
+h2 {
+    text-align: left;
+    font-size: 150%;
+    color: ghostwhite;
+}
+body {
+    background-color: crimson;
 }
